@@ -1,5 +1,4 @@
 fun main() {
-    grouping()
 }
 
 fun filterAndTransform() {
