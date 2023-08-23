@@ -1,10 +1,12 @@
+package advance
+
 fun main() {
     var pizza1 = Pizza.createPizza("Meat")
     println(pizza1)
 }
 
 class Pizza(val type: String, val toppings: String) {
-    companion object Factory {
+    companion object{
         fun createPizza(pizzaType: String): Pizza {
             return when (pizzaType) {
                 "Tomato" -> Pizza("Tomato", "tomato,cheese")

@@ -1,3 +1,5 @@
+package advance
+
 fun main() {
     val day = Day.Sunday
     day.display()
@@ -27,6 +29,6 @@ enum class Day(val n: Int) {
     Saturday(7);
 
     fun display() {
-        println("Day is $this")
+        println("advance.Day is $this")
     }
 }
